@@ -58,6 +58,14 @@ h1 a {
     padding: 0 10px;
 }
 
+.dashboard img, .fixtures ul li img{
+    transition: transform 0.3s ease;
+}
+
+.dashboard img:hover, .fixtures ul li img:hover {
+    transform: scale(1.05);
+}
+
 #row-1 img {
     width: 200px;
     border-radius: 5px;
@@ -111,3 +119,21 @@ footer {
     bottom: 0; 
     width: 100%; 
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    margin: 20px;
+}
+
+
+.grid-item{
+    padding: 20px;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgb(3, 51, 160);
+    color: white;
+}
+
