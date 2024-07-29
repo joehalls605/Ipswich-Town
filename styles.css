@@ -1,0 +1,56 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+h1{
+    text-decoration: none;
+}
+
+h1 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.container{
+    display: flex;
+    background-color: bisque;
+}
+
+.dashboard{
+    display: flex;
+    flex: 5;
+    background-color: yellow;
+    flex-direction: column;
+}
+
+.dashboard ul{
+    display: flex;
+    list-style: none;
+}
+
+.dashboard li{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.fixtures{
+    flex: 1;
+    background-color: aqua;
+}
