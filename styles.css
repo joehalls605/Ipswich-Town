@@ -1,104 +1,113 @@
-html, body{
+html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#header{
+#header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    background-color: white;
 }
 
-nav{
+nav {
     background-color: rgb(3, 51, 160);
     color: white;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
 }
 
-nav ul li{
+nav ul li {
     margin: 0 10px;
     padding: 0 10px;
 }
 
-h1{
+h1 {
     text-decoration: none;
     margin-left: 20px;
 }
 
-h1 a{
+h1 a {
     text-decoration: none;
-    color: rgb(0, 34, 114)
+    color: rgb(0, 34, 114);
 }
 
-.container{
+.container {
     display: flex;
     height: 800px;
 }
 
-.dashboard{
+.dashboard {
     display: flex;
     flex: 5;
     flex-direction: column;
     background-color: #f7f7f7;
 }
 
-.dashboard ul{
+.dashboard ul {
     display: flex;
     list-style: none;
 }
 
-.dashboard li{
+.dashboard li {
     margin: 0 10px;
     padding: 0 10px;
 }
 
-#row-1 img{
+#row-1 img {
     width: 200px;
+    border-radius: 5px;
+    border: grey solid 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-#row-2 img{
+#row-2 img {
     width: 300px;
+    border: grey solid 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.fixtures{
+.fixtures {
     flex: 1;
-    padding: 20px;
     flex-direction: column;
     background-color: rgb(0, 0, 31);
     color: white;
     text-align: center;
 }
 
-.fixtures ul{
+.fixtures ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     justify-content: space-between;
+    padding: 0px;
 }
 
-.fixtures ul li{
+.fixtures ul li {
     margin-top: 20px;
 }
 
-.fixtures ul li img{
+.fixtures ul li img {
     width: 100px;
     border-radius: 10px;
 }
 
-.container h2{
- margin-left: 20px;
+.container h2 {
+    margin-left: 20px;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
     background-color: rgb(3, 51, 160);
     color: white;
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
 }
